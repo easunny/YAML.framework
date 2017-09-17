@@ -1,5 +1,5 @@
 {
-  "name": "YAML-CC",
+  "name": "YAML-Framework",
   "version": "0.0.2",
   "summary": "Proper YAML support for Objective-C. Based on recommended LibYAML.",
   "description": "YAML.framework provides support for YAML (de)serialisation similarly to standard NSPropertyListSerialization. Based on C LibYAML library by Kirill Simonov.",
@@ -18,13 +18,13 @@
   },
   "source_files": [
     "YAMLSerialization.{h,m}",
-    "yaml-0.1.4/config.h"
+    "yaml-0.1.4/config.h",
+    "LibYAML/include/*.{h,c}",
+    "LibYAML/src/*.{h,c}"
   ],
   "public_header_files": "YAMLSerialization.h",
   "requires_arc": false,
   "dependencies": {
-    "LibYAML": [
-      "~> 0.1.4"
-    ]
+    
   }
 }
