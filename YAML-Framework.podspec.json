@@ -19,8 +19,7 @@
   "source_files": [
     "YAMLSerialization.{h,m}",
     "yaml-0.1.4/config.h",
-    "LibYAML/include/*.{h,c}",
-    "LibYAML/src/*.{h,c}"
+    "LibYAML/src/**/*.{h,c}"
   ],
   "public_header_files": "YAMLSerialization.h",
   "requires_arc": false,
